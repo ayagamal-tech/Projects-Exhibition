@@ -1,0 +1,24 @@
+#A
+The pulse sensor works by emitting an Infra-Red signal from an IR-Diode onto the skin. 
+Just underneath the skin, there are capillaries carrying blood.
+Every time heartpumps there is a small increase in blood flow/pressure.
+This swells the capillariesslightly, this slightly more filled capillary reflects more infra-red than at times when theheart is not giving your blood a “push”.
+An Infra-detector on the device senses thedifferent reflected IR levels.
+Some simple comparator circuitry converts this into avoltage signal which we can read with the Arduino Analog inputs.
+#B
+The code reads a character value from a Bluetooth device, and based on the received command, it controls the car's movement.
+The code starts with defining the pins used to control the car's motors.
+Then, in the setup function, it sets the defined pins as output pins and starts the serial communication.
+In the loop function, the code waits for incoming data from the Bluetooth device.
+Once a character is available, it is stored in the variable "cmd".
+Then, the code checks the value of "cmd" and executes the corresponding action.
+#C
+the sensor checks if anybody front of the door and the user enters the password if he is an admin he can change the password n
+or can use the frid to open the door more quick.
+#D
+This is a security system that triggers an alarm when an intruder or unauthorized individual enters the premises.
+The alarm will not cease until the owner inputs a password to deactivate it.
+Subsequently, another password must be entered to reset the system and restore its original state.
+#E
+Our project is glasses for the blind it will help them to walk in the street or anywhere without a need to help.
+It starts working by sensing a body at a distance 1 Metre away, then a sound will warn them to stop or take care about whichever coming.
